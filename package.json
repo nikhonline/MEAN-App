@@ -1,0 +1,34 @@
+{
+  "name" : "Employee - MEAN App",
+  "version" : "0.0.1",
+  "main" : "./node_201_nikhil.js",
+  "author" : {
+    "name" : "Nikhil",
+    "email" : ""
+  },
+  "scripts" : {
+    "start" : "node ./employee.js",
+    "test" : "node node_modules/mocha/bin/_mocha ./test/EmployeeTest.js",
+    "coverage" : "istanbul cover node_modules/mocha/bin/_mocha ./test/EmployeeTest.js"
+  },
+  "keywords" : [ ],
+  "licenses" : {
+    "type" : "none"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/nikhonline/MEAN-App.git"
+  },
+  "dependencies" : {
+    "http" : "*",
+    "express" : "*",
+    "body-parser" : "*"
+  },
+  "devDependencies" : {
+    "chai" : "^3.5.0",
+    "chai-http" : "^1.0.0"
+  },
+  "bugs" : {
+    "url" : "http://github.com/YOUR_LOGIN/node_201_nikhil/issues"
+  }
+}
